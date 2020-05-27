@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "u-list": "/components/uni-list/uni-list",
+    "u-cell": "/components/uni-list-item/uni-list-item",
+    "list-item": "/components/my-index/list-item"
+  }
+}
