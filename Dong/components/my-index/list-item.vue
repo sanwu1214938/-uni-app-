@@ -2,6 +2,7 @@
 	
     <view class="list-item index">
         dong-list-item
+		<navigator url="../../pages/test/test/test">test页面</navigator>
     </view>
 	
 </template>

@@ -1,1 +1,1 @@
-<view class="list-item index data-v-791c9cb7">dong-list-item</view>
+<view class="list-item index data-v-791c9cb7">dong-list-item<navigator url="../../pages/test/test/test" class="data-v-791c9cb7">test页面</navigator></view>

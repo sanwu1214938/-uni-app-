@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/test/test/test"
   ],
   "subPackages": [],
   "window": {
@@ -10,6 +11,5 @@
     "backgroundColor": "#373737",
     "backgroundTextStyle": "light"
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap54.json"
+  "usingComponents": {}
 }
