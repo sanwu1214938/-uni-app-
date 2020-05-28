@@ -6,9 +6,10 @@
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#007AFF",
-    "backgroundColor": "#FFFFFF"
+    "navigationBarBackgroundColor": "#373737",
+    "backgroundColor": "#373737",
+    "backgroundTextStyle": "light"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap54.json"
 }

@@ -1,6 +1,9 @@
 {
   "navigationBarTitleText": "uni-ui基础项目",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
   "usingComponents": {
+    "hx-navbar": "/components/hx-navbar/hx-navbar",
     "list-page": "/pages/index/list-page"
   }
 }

@@ -7720,9 +7720,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 28:
-/*!*****************************************!*\
-  !*** E:/D-uni-work/Dong/common/util.js ***!
-  \*****************************************/
+/*!***************************************************!*\
+  !*** E:/D-uni-work/-uni-app-/Dong/common/util.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7811,9 +7811,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!*************************************!*\
-  !*** E:/D-uni-work/Dong/pages.json ***!
-  \*************************************/
+/*!***********************************************!*\
+  !*** E:/D-uni-work/-uni-app-/Dong/pages.json ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8708,10 +8708,10 @@ main();
 
 /***/ }),
 
-/***/ 55:
-/*!********************************************************!*\
-  !*** E:/D-uni-work/Dong/components/uni-icons/icons.js ***!
-  \********************************************************/
+/***/ 53:
+/*!******************************************************************!*\
+  !*** E:/D-uni-work/-uni-app-/Dong/components/uni-icons/icons.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8862,21 +8862,21 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ }),
 
 /***/ 7:
-/*!******************************************************!*\
-  !*** E:/D-uni-work/Dong/pages.json?{"type":"style"} ***!
-  \******************************************************/
+/*!****************************************************************!*\
+  !*** E:/D-uni-work/-uni-app-/Dong/pages.json?{"type":"style"} ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "uni-ui基础项目" } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#007AFF", "backgroundColor": "#FFFFFF" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "uni-ui基础项目", "enablePullDownRefresh": true, "navigationStyle": "custom" } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#373737", "backgroundColor": "#373737", "backgroundTextStyle": "light" } };exports.default = _default;
 
 /***/ }),
 
 /***/ 8:
-/*!*****************************************************!*\
-  !*** E:/D-uni-work/Dong/pages.json?{"type":"stat"} ***!
-  \*****************************************************/
+/*!***************************************************************!*\
+  !*** E:/D-uni-work/-uni-app-/Dong/pages.json?{"type":"stat"} ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

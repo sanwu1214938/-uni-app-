@@ -1,6 +1,16 @@
 <template>
 	
 	<view class="tabs">
+		<!-- 自定义导航栏(用插件市场的插件) -->
+		<hx-navbar :fixed="true" :back="false" :backgroundColor="[[236, 0, 140],[103, 57, 182]]" :backgroundColorLinearDeg="-30" color="#ffffff" statusBarFontColor="#ffffff">
+		    <view class="navbar_input_container">
+				<input class="navbar_input" placeholder="搜索好剧..." type="text" value="" />
+			</view>
+		    <view slot="left" class="left_logo_container">
+				<image class="left_logo" src="../../static/test/icon_home_detail_share_ig_default.png" mode=""></image>
+			</view>
+		</hx-navbar>
+		
 		<!-- 导航栏(可左右滑动) -->
 		<scroll-view ref="tabbar1" id="tab-bar" class="tab-bar" :scroll="false" :scroll-x="true" :show-scrollbar="false"
 		 :scroll-into-view="scrollInto">
@@ -42,6 +52,7 @@
 	// #endif
 	
 	import listPage from './list-page.vue';
+	import hxNavbar from "../../components/hx-navbar/hx-navbar.vue"
 
 
 	// 缓存每页最多
@@ -52,7 +63,8 @@
 
 	export default {
 		components: {
-			listPage
+			listPage,
+			hxNavbar
 		},
 		data() {
 			return {
@@ -277,7 +289,6 @@
 		min-height: 100%;
 		display: flex;
 	}
-
 	/* #endif */
 
 	.tabs {
@@ -314,7 +325,6 @@
 		height: 2px;
 		background-color: transparent;
 	}
-
 	.scroll-view-underline {
 		position: absolute;
 		top: 0;
@@ -322,21 +332,18 @@
 		width: 0;
 		background-color: #007AFF;
 	}
-
 	.scroll-view-animation {
 		transition-duration: 0.2s;
 		transition-property: left;
 	}
-
 	.tab-bar-line {
 		height: 1upx;
 		background-color: #cccccc;
 	}
-
 	.tab-box {
+		min-height: 100vh;
 		flex: 1;
 	}
-
 	.uni-tab-item {
 		/* #ifndef APP-PLUS */
 		display: inline-block;
@@ -345,7 +352,6 @@
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-
 	.uni-tab-item-title {
 		color: #555;
 		font-size: 30upx;
@@ -356,16 +362,13 @@
 		white-space: nowrap;
 		/* #endif */
 	}
-
 	.uni-tab-item-title-active {
 		color: #007AFF;
 	}
-
 	.swiper-item {
 		flex: 1;
 		flex-direction: column;
 	}
-
 	.page-item {
 		flex: 1;
 		flex-direction: row;
@@ -374,5 +377,32 @@
 		top: 0;
 		right: 0;
 		bottom: 0;
+	}
+	
+	
+	/* 自定义导航栏样式 */
+	.navbar_input_container{
+		width: 330rpx;
+		height: 100%;
+	}
+	.navbar_input{
+		width: 100%;
+		height: 100%;
+		color: #FFFFFF!important;
+		font-size: 22rpx;
+		text-align: center;
+		background-color: rgba(0,0,0,0.5);
+		border-radius: 25rpx;
+	}
+	.left_logo_container{
+		height: 100%;
+		width: 120rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.left_logo{
+		width: 44rpx;
+		height: 44rpx;
 	}
 </style>
